@@ -37,9 +37,7 @@ sudo mv onos-$ONOS_VERSION onos
 sudo /opt/onos/bin/onos-service start
 ```
 > If you receive an error shown below:
-```
-karaf: There is a Root instance already running with name root and pid 302957. If you know what you are doing and want to force the run anyway, export CHECK_ROOT_INSTANCE_RUNNING=false and re run the command.
-```
+![Error](https://github.com/eabaca2419/Introduction-to-ONOS/blob/main/ONOS_Installation/Error_Running_ONOS_as_a_Service.png)
 > Run the following comands and it should run correctly.
 ```
 export CHECK_ROOT_INSTANCE_RUNNING=false
