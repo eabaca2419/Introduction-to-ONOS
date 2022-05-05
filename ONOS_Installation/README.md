@@ -16,3 +16,33 @@ sudo nano /etc/enviroment
 ```
 sudo apt-get install curl
 ```
+## Installation 
+###### ONOS Default Packages
+> ONOS default packages assume ONOs gets installed under the directory /opt
+```
+sudo mkdir /opt
+cd /opt
+```
+###### Downloading the desire ONOS Version
+> The following lines are default using $ONOS_VERSION and can be replace with onos-2.7.0 since its the latest version.
+```
+sudo wget -c https://repo1.maven.org/maven2/org/onosproject/onos-releases/$ONOS_VERSION/onos-$ONOS_VERSION.tar.gz
+sudo tar xzf onos-$ONOS_VERSION.tar.gz
+sudo mv onos-$ONOS_VERSION onos
+```
+## Running ONOS
+###### Running ONOS as a service
+> Before running either the CLI or the GUI you need to start ONOS as a service.
+```
+sudo /opt/onos/bin/onos-service start
+```
+> If you receive an error shown below:
+```
+karaf: There is a Root instance already running with name root and pid 302957. If you know what you are doing and want to force the run anyway, export CHECK_ROOT_INSTANCE_RUNNING=false and re run the command.
+```
+> Run the following comands and it should run correctly.
+```
+export CHECK_ROOT_INSTANCE_RUNNING=false
+sudo /opt/onos/bin/onos-service stop
+sudo /opt/onos/bin/onos-service start
+```
