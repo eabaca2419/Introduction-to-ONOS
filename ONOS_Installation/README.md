@@ -45,12 +45,14 @@ sudo /opt/onos/bin/onos-service stop
 sudo /opt/onos/bin/onos-service start
 ```
 ###### Running the CLI
-> When ruuning the CLI there is several confligs if you use the follwoing line. 
+> Open another terminal while ONOS is running as a Service.
+> When running the CLI there is several confligs if you use the follwoing line:
 ```
 sudo /opt/onos/bin/onos
 ```
-> It will ask for a password which can't be found anywhere. Instead run the following line.
+> It will ask for a password which can't be found anywhere. Instead run the following line:
 ```
 ssh -p 8101 karaf@localhost
 ```
 > Password: *karaf*
+> 
