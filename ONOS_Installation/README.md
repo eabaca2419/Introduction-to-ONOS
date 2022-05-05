@@ -44,15 +44,23 @@ export CHECK_ROOT_INSTANCE_RUNNING=false
 sudo /opt/onos/bin/onos-service stop
 sudo /opt/onos/bin/onos-service start
 ```
+> Leave ONOS running as a service before running the CLI or GUI.
 ###### Running the CLI
-> Open another terminal while ONOS is running as a Service.
-> When running the CLI there is several confligs if you use the follwoing line:
-```
-sudo /opt/onos/bin/onos
-```
-> It will ask for a password which can't be found anywhere. Instead run the following line:
+> Open another terminal and Run the following command line in order to start the CLI:
 ```
 ssh -p 8101 karaf@localhost
 ```
 > Password: *karaf*
-> 
+###### Running the GUI
+>In your internet Browser type:
+```
+http://localhost:8181/onos/ui
+```
+>For the login you can use either:
+```
+Username: onos
+Password: rocks
+or 
+Username: karaf
+Password: karaf
+```
