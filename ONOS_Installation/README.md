@@ -51,6 +51,8 @@ sudo /opt/onos/bin/onos-service start
 ssh -p 8101 karaf@localhost
 ```
 > Password: *karaf*
+![CLI_Running](https://github.com/eabaca2419/Introduction-to-ONOS/blob/main/ONOS_Installation/CLI/CLI_Running.png)
+> Go to [CLI](https://github.com/eabaca2419/Introduction-to-ONOS/tree/main/ONOS_Installation/CLI) in order to see a turtorial while using the CLI.
 ###### Running the GUI
 >In your internet Browser type:
 ```
