@@ -14,3 +14,4 @@ karaf@root > app activate org.onosproject.openflow
 ```
 karaf@root > app activate org.onosproject.fwd
 ```
+###### If you want to see more useful commands go to the [ONOS-Wiki](https://wiki.onosproject.org/display/ONOS/Appendix+A+%3A+CLI+commands)
