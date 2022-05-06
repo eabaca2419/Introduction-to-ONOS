@@ -66,3 +66,4 @@ or
 Username: karaf
 Password: karaf
 ```
+![GUI_Running](https://github.com/eabaca2419/Introduction-to-ONOS/blob/main/ONOS_Installation/GUI/GUI.png)
