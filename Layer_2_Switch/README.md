@@ -15,7 +15,7 @@ sudo mn --controller remote --switch ovsk,protocols="OpenFlow13"
 sudo mn --controller remote --switch ovsk,protocols="OpenFlow13" --topo tree,depth=3
 ```
 ## Running a Layer 2 using a Python script
-###### If you desire to make a Layer two topology using a python code use the code [Layer_2.py]() thta is place on top to run a simple topology of 3 switches and 4 host. Then either run the [bash script]() or simple run the command line:
+###### If you desire to make a Layer two topology using a python code use the code [Layer_2.py](https://github.com/eabaca2419/Introduction-to-ONOS/blob/main/Layer_2_Switch/Layer_2.py) thta is place on top to run a simple topology of 3 switches and 4 host. Then either run the [bash script](https://github.com/eabaca2419/Introduction-to-ONOS/blob/main/Layer_2_Switch/Layer_2.sh) or simple run the command line:
 ```
 sudo mn --custom Layer_2.py --topo mytopo --mac --controller=remote --switch ovsk,protocols="OpenFlow13"
 ```
