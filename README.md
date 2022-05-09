@@ -6,3 +6,4 @@
 ###### [Mininet Installation](https://github.com/eabaca2419/Introduction-to-ONOS/tree/main/Mininet_Installation)
 ## Tutorials
 ###### [Layer 2 Switch](https://github.com/eabaca2419/Introduction-to-ONOS/tree/main/Layer_2_Switch)
+###### [P4Runtime](https://github.com/eabaca2419/Introduction-to-ONOS/tree/main/P4Runtime)
